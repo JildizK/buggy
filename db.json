@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Jilk",
+      "position": "k",
+      "Expirience": "Js",
+      "favorite": false,
+      "id": 3,
+      "favorites": true
+    },
+    {
+      "name": "d",
+      "position": "front",
+      "Expirience": "5",
+      "favorite": false,
+      "id": 4,
+      "favorites": false
+    },
+    {
+      "name": "f",
+      "position": "f",
+      "Expirience": "5",
+      "favorite": false,
+      "id": 5,
+      "favorites": true
+    }
+  ],
+  "favorites": [
+    {
+      "id": "favorite-3",
+      "user": {
+        "name": "Jilk",
+        "position": "k",
+        "Expirience": "Js",
+        "favorite": false,
+        "id": 3,
+        "favorites": true
+      }
+    },
+    {
+      "id": "favorite-5",
+      "user": {
+        "name": "f",
+        "position": "f",
+        "Expirience": "5",
+        "favorite": false,
+        "id": 5,
+        "favorites": true
+      }
+    }
+  ]
+}

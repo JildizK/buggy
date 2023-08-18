@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: white;s */
+}
+
+.navbar, .footer {
+    height: 10vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.main {
+ width: 100%;
+ height: 80vh;
+ display:  flex;
+ align-items: center;
+ justify-content: center;
+ overflow-y: scroll;
+}
+a {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list__item {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: 0.5%;
+    background-color: gray;
+}
+.details__btn, .edit__btn, .delete__btn, .create__btn {
+    background-color: transparent;
+    padding: 1.5%;
+    border: 1px solid gray;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.profile__card {
+    width: 15%;
+    height: 30%;
+    background-color: darkgray;
+    border: 2px solid black;
+    border-radius:  5px;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.create__block, .edit__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 15%;
+    height:  40%;
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+    height: 15%;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: azure;
+}
+
+.favorites__title {
+    color: black;
+}
